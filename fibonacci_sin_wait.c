@@ -25,7 +25,6 @@ int main(int argc, char *argv[])
         printf("el fibonacci de 25 es: %d\n", fibonacci(25));
     } else {
         // parent goes down this path (original process)
-        // int wc = wait(NULL);
         printf("[%d] Soy el padre\n", (int) getpid());
     }
     printf("[%d] Termino ejecucion\n", (int) getpid());
